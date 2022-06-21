@@ -1,0 +1,8 @@
+<mat-card class="wrapper">
+  <canvas appDrawable id="canvas-input" width="200px" height="200px"></canvas>
+
+  <div class="btn-box">
+    <button mat-raised-button color="primary" (click)="sendImageData()">Predict</button>
+    <button mat-raised-button color="warn" (click)="canvas.clear()">Clear</button>
+  </div>
+</mat-card>

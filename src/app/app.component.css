@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.container > * {
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;  
+    flex-flow: row nowrap;
+}
+
+#input {
+    flex: 0 0 250px;
+}
+
+#chart {
+    flex: 1;
+    min-width: 0;
+}
+
+@media all and (max-width: 700px) {
+    .wrapper{
+        flex-flow: column nowrap;
+    }
+  }

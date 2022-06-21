@@ -1,0 +1,32 @@
+.wrapper{
+    max-width: 215px;
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+}
+
+.wrapper > * {
+    margin: 5px 0vh;
+}
+
+.btn-box {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.btn-box > button {
+    flex: 1;
+    margin: 5px;
+}
+
+#canvas-input{
+    cursor: crosshair;
+    background-color: black;
+    border: 4px solid #9a9d9e;
+    transition: border-color .2s ease-in;
+}
+
+#canvas-input:hover {
+    border: 4px solid #d3dada;
+    transition: border-color .2s ease-in;
+}

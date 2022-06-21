@@ -1,0 +1,9 @@
+<div class="container">
+  <mat-toolbar color="primary"> 
+    <span>Mnist Character Recognition Web App</span>
+  </mat-toolbar>
+  <div class="wrapper">
+    <app-input id="input" (newImage)="predict($event)"></app-input>
+    <app-chart id="chart" [data]="predictions"></app-chart>
+  </div>
+</div>
